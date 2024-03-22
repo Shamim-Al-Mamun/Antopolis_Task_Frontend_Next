@@ -1,0 +1,88 @@
+:root {
+  --bg-color: #000811;
+  --primary-color: #006ce0;
+  --border-radius: 6px;
+  --color: #2b82df;
+}
+body {
+  background-color: #000 !important;
+}
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0px;
+}
+.header-category,
+.header-modal-btn {
+  display: flex;
+  gap: 20px;
+}
+.header-category .btn,
+.header-modal-btn .btn {
+  background: transparent;
+  padding: 5px 20px;
+  color: red;
+  border-color: red;
+}
+.header-category .btn:active,
+.header-modal-btn .btn:active {
+  background: transparent !important;
+  padding: 5px 20px !important;
+  color: red !important;
+  border-color: red !important;
+}
+.header-category .btn:hover{
+  color: green;
+  background: transparent;
+  border-color: green;
+}
+.header-category .active{
+  color: green !important;
+  background: transparent !important;
+  border-color: green !important;
+}
+.header-modal-btn .category-btn{
+  color: rgb(58, 239, 170);
+  border-color: rgb(58, 239, 170);
+}
+.header-modal-btn .category-btn:hover{
+  color: rgb(17, 181, 232);
+  border-color: rgb(17, 181, 232);
+  background: transparent;
+}
+
+.header-modal-btn .animal-btn{
+  color: rgb(17, 181, 232);
+  border-color: rgb(17, 181, 232);
+  
+}
+.header-modal-btn .animal-btn:hover{
+  color: rgb(58, 239, 170);
+  border-color: rgb(58, 239, 170);
+  background: transparent;
+}
+.animal-card-div {
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  gap: 5px;
+}
+
+.animal-card {
+  background-color: #040404;
+  text-align: center;
+  color: #fff;
+  border-radius: 15px;
+}
+.animal-card img{
+  width: 100%;
+  height: 100px;
+}
+.animal-card h6{
+  padding: 15px 0px;
+}
+.form-btn {
+  text-align: center;
+}
+.form-btn .btn{
+  width: 200px;
+}
